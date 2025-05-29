@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras - Impacto Sport</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0a0a23;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #004080;
+            color: white;
+        }
+
+        .total {
+            font-weight: bold;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #004080;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Camisa Deportiva</td>
+                    <td>2</td>
+                    <td>$45.000</td>
+                    <td>$90.000</td>
+                </tr>
+                <tr>
+                    <td>Tenis Running</td>
+                    <td>1</td>
+                    <td>$120.000</td>
+                    <td>$120.000</td>
+                </tr>
+                <tr class="total">
+                    <td colspan="3">Total a pagar</td>
+                    <td>$210.000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="portafolio_productos.html">← Seguir comprando</a>
+    </main>
+</body>
+</html>
